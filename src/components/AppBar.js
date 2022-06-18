@@ -19,7 +19,7 @@ import React from "react";
 
 const AppBar = () => {
   return (
-    <NavBar sx={{ background: "#FFFFFF" }}>
+    <NavBar sx={{ background: "#FFFFFF" }} position="static">
       <Container maxWidth={"md"}>
         <Toolbar disableGutters>
           <Stack
